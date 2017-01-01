@@ -22,18 +22,14 @@ html
             span class="icon-bar"
             span class="icon-bar"
             span class="icon-bar"
-          a class="navbar-brand" href="/" RedDotRubyConf 2016
+          a class="navbar-brand" href="/" RedDotRubyConf 2017
         #navbar class="navbar-collapse collapse"
           ul class="nav navbar-nav"
-            li= link_to "Schedule" , "/#schedule"
             li= link_to "Speakers" , "/#speakers"
             li= link_to "Venue"    , "/#venue"
             li= link_to "Sponsors" , "/#sponsors"
             li= link_to "Code of Conduct" , "/code-of-conduct#content"
-            li= link_to "Accommodation Partners" , "/accommodation-partners#content"
-            li= link_to "Engage" , "/engage"
-          ul class="nav navbar-nav navbar-right"
-            li= link_to "Register Now" , "https://www.ticketbase.com/events/reddotrubyconf-2016"
+
     section.splash
       .splash--background
       .container
@@ -47,14 +43,11 @@ html
             p
               ' Two Days • Single Track
               br
-              ' June 23 and 24, 2016
+              ' June 22 and 23, 2017
               br
               ' Singapore
           .col-sm-12.splash--cta
-            = link_to "Watch Videos"  , "https://www.youtube.com/playlist?list=PLECEw2eFfW7iiJpXtb_cYeKv5_A6Pd1tl", class: "cta"
-            ' &nbsp;
-            ' &nbsp;
-            = link_to "View Resources", "https://gist.github.com/cheeaun/43843c8b1c764825b9f3d63ed8f5bd78", class: "cta"
+            = link_to "Submit to CFP"  , "https://cfp.reddotrubyconf.com", class: "cta", target: "_blank"
 
     = yield
 
@@ -65,14 +58,7 @@ html
         .row
           .col-sm-6
             div
-              ' A
-              => link_to "Jolly Good Code", "http://www.jollygoodcode.com"
-              ' Production
-            div
-              ' Organised by:
-              = link_to "@winstonyw", "https://www.twitter.com/winstonyw"
-              ',
-              = link_to "@tgx_world", "https://www.twitter.com/tgx_world"
+              ' A <b>RedDotRuby</b> Production
           .col-sm-6.text-right
             div
               => link_to "@reddotrubyconf", "https://www.twitter.com/reddotrubyconf"
@@ -81,10 +67,11 @@ html
               ' /
               => link_to "Flickr", "https://www.flickr.com/photos/reddotrubyconf"
             div
-              ' Previously
+              ' Previous years:
               => link_to "RDRC 2013", "https://rdrc2013.herokuapp.com"
-              ' /
+              ' |
               => link_to "RDRC 2014", "https://rdrc2014.herokuapp.com"
-              ' /
+              ' |
               => link_to "RDRC 2015", "https://rdrc2015.herokuapp.com"
-
+              ' |
+              => link_to "RDRC 2016", "https://rdrc2016.herokuapp.com"
