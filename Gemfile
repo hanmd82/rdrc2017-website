@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby "2.3.1"
+ruby "2.3.3"
 
 gem "rails", "~> 5.0.0"
 
@@ -18,7 +18,7 @@ gem 'font-awesome-sass'
 gem "meta-tags"
 gem "local_time"
 gem "twemoji"
-gem "html-pipeline", git: "https://github.com/jch/html-pipeline.git", branch: "bump-rails-dependency"
+gem "html-pipeline"
 gem "github-markdown"
 gem "sanitize"
 
