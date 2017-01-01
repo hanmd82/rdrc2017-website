@@ -17,6 +17,9 @@ Bundle and run the Rails server:
 $> cd rdrc2016
 $> bundle install
 ...
+$> bundle exec rake db:create db:migrate db:test:prepare
+$> bundle exec rspec
+...
 $> rails s
 ```
 
