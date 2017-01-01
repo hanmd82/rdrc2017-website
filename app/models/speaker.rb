@@ -52,7 +52,7 @@ class Speaker
           :id       => :betsyhaibel,
           :name     => "Betsy Haibel",
           :avatar   => "speakers/betsyhaibel.png",
-          :tagline  => "RailsGirls DC mentor",
+          :tagline  => "Member of Technical Staff, ActBlue.<br/>RailsGirls DC mentor",
           :twitter  => "betsythemuffin",
           :github   => "bhaibel",
           :topic    => "Keynote"
@@ -62,7 +62,7 @@ class Speaker
           :id       => :amatsuda,
           :name     => "Akira Matsuda",
           :avatar   => "speakers/amatsuda.png",
-          :tagline  => "Founder of Asakusa.rb. CRuby Core",
+          :tagline  => "CRuby Core. Founder of Asakusa.rb",
           :twitter  => "a_matsuda",
           :github   => "amatsuda",
           :topic    => "Keynote"
