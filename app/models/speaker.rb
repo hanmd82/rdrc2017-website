@@ -52,7 +52,7 @@ class Speaker
           :id       => :betsyhaibel,
           :name     => "Betsy Haibel",
           :avatar   => "speakers/betsyhaibel.png",
-          :tagline  => "Member of Technical Staff, ActBlue.<br/>RailsGirls DC mentor",
+          :tagline  => "Lead Software Architect, Roostify<br/>RailsGirls DC mentor",
           :twitter  => "betsythemuffin",
           :github   => "bhaibel",
           :topic    => "Keynote"
