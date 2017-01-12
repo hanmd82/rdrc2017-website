@@ -24,8 +24,8 @@ module ApplicationHelper
 
   def default_meta_tags
     meta_tags_template(
-      "RedDotRubyConf 2016",
-      "The largest Ruby conference in South East Asia is happening on 23 and 24 June 2016.",
+      "RedDotRubyConf 2017",
+      "The largest Ruby conference in South East Asia is happening on 22 and 23 June 2017.",
       "website",
       "summary_large_image",
       image_url("social-media-#{[1,2].sample}.jpg")
