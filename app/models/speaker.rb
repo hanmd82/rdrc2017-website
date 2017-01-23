@@ -62,11 +62,22 @@ class Speaker
           :id       => :amatsuda,
           :name     => "Akira Matsuda",
           :avatar   => "speakers/amatsuda.png",
-          :tagline  => "CRuby Core. Founder of Asakusa.rb",
+          :tagline  => "CRuby Core<br/>Founder of Asakusa.rb",
           :twitter  => "a_matsuda",
           :github   => "amatsuda",
           :topic    => "Keynote"
+        },
+      emilystolfo:
+        {
+          :id       => :emilystolfo,
+          :name     => "Emily Stolfo",
+          :avatar   => "speakers/emilystolfo.png",
+          :tagline  => "Senior Software Engineer<br/>Ruby Project Lead, MongoDB, Inc.",
+          :twitter  => "EmStolfo",
+          :github   => "estolfo",
+          :topic    => "Keynote"
         }
+
     }
   end
 end

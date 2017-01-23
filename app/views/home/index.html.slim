@@ -5,7 +5,7 @@ section#speakers
       .line
     .row.keynote-speakers
       .col-sm-12.text-center
-        - Speaker.find_by_identifiers(:matz, :tenderlove).each do |speaker|
+        - Speaker.find_by_identifiers(:matz, :tenderlove, :apotonick).each do |speaker|
           .speaker
             .speaker--avatar
               = image_tag speaker.avatar
@@ -15,7 +15,7 @@ section#speakers
               .speaker--tagline
                 = speaker.tagline.html_safe
       .col-sm-12.text-center.m-t
-        - Speaker.find_by_identifiers(:apotonick, :betsyhaibel, :amatsuda).each do |speaker|
+        - Speaker.find_by_identifiers(:amatsuda, :betsyhaibel, :emilystolfo).each do |speaker|
           .speaker
             .speaker--avatar
               = image_tag speaker.avatar
