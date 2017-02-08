@@ -1,5 +1,5 @@
 before_script:
-  - psql -c 'create database rdrc2016_test;' -U postgres
+  - psql -c 'create database rdrc2017_test;' -U postgres
 language: ruby
 cache: bundler
 sudo: false
