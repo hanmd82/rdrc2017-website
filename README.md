@@ -1,6 +1,6 @@
-# RedDotRubyConf 2016 Website
+# RedDotRubyConf 2017 Website
 
-[![Build Status](https://travis-ci.org/reddotrubyconf/rdrc2016.svg?branch=master)](https://travis-ci.org/reddotrubyconf/rdrc2016)
+[![Build Status](https://travis-ci.org/reddotrubyconf/rdrc2017-website.svg?branch=master)](https://travis-ci.org/reddotrubyconf/rdrc2017-website)
 
 [www.reddotrubyconf.com](http://www.reddotrubyconf.com)
 
@@ -8,13 +8,13 @@
 To contribute, [fork the repo](https://help.github.com/articles/fork-a-repo/), then clone it from your fork:
 
 ```
-$> git clone git@github.com:<your GitHub name>/rdrc2016.git
+$> git clone git@github.com:<your GitHub name>/rdrc2017-website.git
 ```
 
 Bundle and run the Rails server:
 
 ```
-$> cd rdrc2016
+$> cd rdrc2017-website
 $> bundle install
 ...
 $> bundle exec rake db:create db:migrate db:test:prepare
