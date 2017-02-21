@@ -5,6 +5,8 @@
 @media (min-width: $screen-sm-min) {
   .navbar {
     display: block;
+    background: rgba(135, 0, 0, 0.9);
+    border: none;
 
     transition: all 0.5s ease-in-out;
 
@@ -15,8 +17,8 @@
     }
 
     a:hover {
-      color: #333333;
-      background-color: white !important;
+      color: darkred;
+      background: rgba(255, 255, 255, 1.0) !important;
     }
   }
 
@@ -90,7 +92,7 @@
 
 #speakers {
   .anchor {
-    display:block;
+    display: block;
     position: relative;
     top: -65px;
   }
