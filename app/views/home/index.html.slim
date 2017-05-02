@@ -27,6 +27,72 @@ section#speakers
 
 hr.section-divider
 
+section#schedule
+  .container
+    h2.section-header
+      ' Schedule
+      .line
+
+    .col-sm-5.col-md-offset-1
+      h3.text-center
+        ' Day 1, June 22 (Thursday)
+      table.schedule--table
+        = render "program", time: "08:00", description: "Registration", icon: "pencil"
+        = render "program", time: "09:15", description: "Opening Address", icon: "bell"
+        = render "talk"   , time: "09:30", speaker: Speaker.find(:matz)
+        = render "talk"   , time: "10:15", speaker: Speaker.find(:timriley)
+        = render "program", time: "10:45", description: "Break", icon: "coffee"
+        = render "talk"   , time: "11:15", speaker: Speaker.find(:bovensiepen)
+        = render "talk"   , time: "11:45", speaker: Speaker.find(:junqitan)
+        = render "program", time: "12:15", description: "Lunch", icon: "cultery"
+        = render "talk"   , time: "13:45", speaker: Speaker.find(:betsyhaibel)
+        = render "talk"   , time: "14:30", speaker: Speaker.find(:laurent)
+        = render "talk"   , time: "15:00", speaker: Speaker.find(:juanitofatas)
+        = render "program", time: "15:30", description: "Break", icon: "coffee"
+        = render "talk"   , time: "16:00", speaker: Speaker.find(:florian)
+        = render "talk"   , time: "16:30", speaker: Speaker.find(:apotonick)
+        = render "program", time: "17:15", description: "Closing For Day One", icon: "bell"
+    .col-sm-5
+      h3.text-center
+        ' Day 2, June 23 (Friday)
+      table.schedule--table
+        = render "program", time: "08:30", description: "Registration", icon: "pencil"
+        = render "program", time: "09:15", description: "Opening Address", icon: "bell"
+        = render "talk"   , time: "09:30", speaker: Speaker.find(:emilystolfo)
+        = render "talk"   , time: "10:15", speaker: Speaker.find(:matadon)
+        = render "program", time: "10:45", description: "Break", icon: "coffee"
+        = render "talk"   , time: "11:15", speaker: Speaker.find(:lauranobilis)
+        = render "program", time: "11:45", icon: "bolt", description: "Lightning Talks"
+        - Speaker.find_by_identifiers(:ankitagupta, :takayuki, :jinnywong, :marion).each do |speaker|
+          = render "lightning", speaker: speaker
+        = render "program", time: "12:15", description: "Lunch", icon: "cultery"
+        = render "talk"   , time: "13:45", speaker: Speaker.find(:amatsuda)
+        = render "talk"   , time: "14:30", speaker: Speaker.find(:weiqingtoh)
+        = render "talk"   , time: "15:00", speaker: Speaker.find(:antondavydov)
+        = render "program", time: "15:30", description: "Break", icon: "coffee"
+        tr.program
+          td.program--time.time 16:00
+          td
+          td
+            .program--details
+              p
+                ' (to be confirmed)
+
+        = render "talk"   , time: "16:30", speaker: Speaker.find(:tenderlove)
+        = render "program", time: "17:15", description: "Closing Address", icon: "bell"
+        tr.program
+          td.program--time.time 19:00
+          td
+          td
+            .program--description
+              = icon("beer", class: "fa")
+              ' After Party
+            .program--details
+              p
+                ' There will be finger food and free-flow beer!
+
+hr.section-divider
+
 section#fringe-events
   .container
     h2.section-header
