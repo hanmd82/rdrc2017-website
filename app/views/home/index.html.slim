@@ -1,31 +1,90 @@
-section#speakers
+section#schedule
   .container
     h2.section-header
-      ' Invited Speakers
+      ' Schedule
       .line
-    .row.keynote-speakers
-      .col-sm-12.text-center
-        - Speaker.find_by_identifiers(:matz, :tenderlove, :apotonick).each do |speaker|
-          .speaker
-            .speaker--avatar
-              = image_tag speaker.avatar
-            .speaker--info
-              .speaker--name
-                = speaker.name
-              .speaker--tagline
-                = speaker.tagline.html_safe
-      .col-sm-12.text-center.m-t
-        - Speaker.find_by_identifiers(:amatsuda, :betsyhaibel, :emilystolfo).each do |speaker|
-          .speaker
-            .speaker--avatar
-              = image_tag speaker.avatar
-            .speaker--info
-              .speaker--name
-                = speaker.name
-              .speaker--tagline
-                = speaker.tagline.html_safe
+
+    .col-sm-5.col-md-offset-1
+      h3.text-center
+        ' Day 1, June 22 (Thursday)
+      table.schedule--table
+        = render "program", time: "08:00", description: "Registration", icon: "pencil"
+        = render "program", time: "09:15", description: "Opening Address", icon: "bell"
+        = render "talk"   , time: "09:30", speaker: Speaker.find(:matz)
+        = render "talk"   , time: "10:15", speaker: Speaker.find(:timriley)
+        = render "program", time: "10:45", description: "Break", icon: "coffee"
+        = render "talk"   , time: "11:15", speaker: Speaker.find(:bovensiepen)
+        = render "talk"   , time: "11:45", speaker: Speaker.find(:junqitan)
+        = render "program", time: "12:15", description: "Lunch", icon: "cultery"
+        = render "talk"   , time: "13:45", speaker: Speaker.find(:betsyhaibel)
+        = render "talk"   , time: "14:30", speaker: Speaker.find(:laurent)
+        = render "talk"   , time: "15:00", speaker: Speaker.find(:juanitofatas)
+        = render "program", time: "15:30", description: "Break", icon: "coffee"
+        = render "talk"   , time: "16:00", speaker: Speaker.find(:lauranobilis)
+        = render "talk"   , time: "16:30", speaker: Speaker.find(:apotonick)
+        = render "program", time: "17:15", description: "Closing For Day One", icon: "bell"
+    .col-sm-5
+      h3.text-center
+        ' Day 2, June 23 (Friday)
+      table.schedule--table
+        = render "program", time: "08:30", description: "Registration", icon: "pencil"
+        = render "program", time: "09:15", description: "Opening Address", icon: "bell"
+        = render "talk"   , time: "09:30", speaker: Speaker.find(:emilystolfo)
+        = render "talk"   , time: "10:15", speaker: Speaker.find(:matadon)
+        = render "program", time: "10:45", description: "Break", icon: "coffee"
+        = render "talk"   , time: "11:15", speaker: Speaker.find(:florian)
+        = render "program", time: "11:45", icon: "bolt", description: "Lightning Talks"
+        - Speaker.find_by_identifiers(:ankitagupta, :takayuki, :marion, :jinnywong).each do |speaker|
+          = render "lightning", speaker: speaker
+        = render "program", time: "12:15", description: "Lunch", icon: "cultery"
+        = render "talk"   , time: "13:45", speaker: Speaker.find(:amatsuda)
+        = render "talk"   , time: "14:30", speaker: Speaker.find(:weiqingtoh)
+        = render "talk"   , time: "15:00", speaker: Speaker.find(:antondavydov)
+        = render "program", time: "15:30", description: "Break", icon: "coffee"
+        tr.program
+          td.program--time.time 16:00
+          td
+          td
+            .program--details
+              p
+                ' (awaiting confirmation)
+
+        = render "talk"   , time: "16:30", speaker: Speaker.find(:tenderlove)
+        = render "program", time: "17:15", description: "Closing Address", icon: "bell"
+        tr.program
+          td.program--time.time 19:00
+          td
+          td
+            .program--description
+              = icon("beer", class: "fa")
+              ' After Party
+            .program--details
+              p
+                ' There will be finger food and free-flow beer!
 
 hr.section-divider
+
+section#venue
+  .container
+    h2.section-header
+      ' Venue
+      .line
+
+    .row
+      .col-sm-6
+        .venue--name
+          ' Matrix (Biopolis), Singapore
+        .venue--address
+          ' 30 Biopolis Street, Singapore 138671
+      .col-sm-6
+        ul.venue--direction
+          li
+            span.cc CC22
+            span.ew EW21
+            ' &nbsp; Buona Vista is the nearest station to the venue
+          li Take Exit D at Buona Vista and walk 500m to Matrix (Biopolis)
+  .venue--map
+    iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.785310671736!2d103.79004135040948!3d1.3038349990443774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a43e3cb7111%3A0x9965b36cbf8d88c3!2sBiopolis!5e0!3m2!1sen!2ssg!4v1453434417662" frameborder="0" style="border:0" allowfullscreen=""
 
 section#fringe-events
   .container
@@ -66,6 +125,40 @@ section#fringe-events
             br
             p
               = link_to 'Register Now', 'https://ti.to/reddotruby/rdrc2017-workshop-dry-rb', class: 'btn btn-success', target: "_blank"
+
+hr.section-divider
+
+section#speakers
+  .container
+    h2.section-header
+      ' Speakers
+      .line
+    .row.keynote-speakers
+      .col-sm-12.text-center
+        - Speaker.find_by_identifiers(:matz, :tenderlove, :apotonick).each do |speaker|
+          .speaker
+            .speaker--avatar
+              = image_tag speaker.avatar
+            .speaker--info
+              .speaker--name
+                = speaker.name
+              .speaker--tagline
+                = speaker.tagline.html_safe
+      .col-sm-12.text-center.m-t
+        - Speaker.find_by_identifiers(:amatsuda, :betsyhaibel, :emilystolfo).each do |speaker|
+          .speaker
+            .speaker--avatar
+              = image_tag speaker.avatar
+            .speaker--info
+              .speaker--name
+                = speaker.name
+              .speaker--tagline
+                = speaker.tagline.html_safe
+    .row
+      .col-sm-12.text-center
+        br
+        br
+        ' More speaker details coming soon...
 
 hr.section-divider
 
