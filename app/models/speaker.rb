@@ -87,7 +87,8 @@ class Speaker
           github: "",
           bio: "",
           topic: "Functional Architecture for the Practical Rubyist",
-          description: ""
+          description: "We build our Ruby apps with the best of intentions, but it's all too easy for them to become tangled and hard to maintain. If you've reached for object-oriented design principles as your path forward, and found them elusive or hard to apply, there is still hope! It turns out that some of our best OO code may live behind an FP curtain. Come along and discover how a functional architecture can make your Ruby apps not only SOLID, but a real joy to build, test, and extend."
+
         },
       bovensiepen:
         {
@@ -99,7 +100,7 @@ class Speaker
           github: "",
           bio: "",
           topic: "Ruby on Wheelchair",
-          description: ""
+          description: "What would you do if you end up in a Wheelchair after an accident and you are not satisfied with the feature-set of the chair? You could buy a better one... Or you put Ruby on it and add the features you are missing. This talk will show you how you can hack your Wheelchair by using mruby, Microcontrollers and many other things never seen on a Wheelchair before. Let's put Ruby on a Wheelchair!"
         },
       junqitan:
         {
@@ -110,8 +111,8 @@ class Speaker
           twitter: "",
           github: "",
           bio: "",
-          topic: "All I'd Wanted to Know about Ruby's Object Model",
-          description: ""
+          topic: "All I'd Wanted to Know about Ruby's Object Model Starting Out...and Mooar!!!",
+          description: "One of the most fun yet confusing things about Ruby is its object model. It's something that can seem highly cryptic to beginners, and perhaps not even that well understood by experienced Rubyists. Not too far into my Ruby journey, I began to get a taste of metaprogramming, but even as I learnt and grew more familiar with common idioms, I always had a nagging feeling that my underlying mental model didn't quite cut it, so I decided to iron it out. The more I read, the more intrigued I became, until I ended up diving into the CRuby source itself! Here's the story of what I learnt about Ruby's object model, in a way that's both digestible for beginner/intermediates and also insightful for the more experienced. It will also be the story of my journey from feeling like a newbie lacking confidence in my ability to understand something as complex as CRuby, to taking the plunge and learning how to fearlessly read the source!"
         },
       laurent:
         {
@@ -123,7 +124,7 @@ class Speaker
           github: "",
           bio: "",
           topic: "Profiling Ruby Applications, the Right Way",
-          description: ""
+          description: "We all love Ruby because of its conciseness, its elegant syntax allows us to write beautiful code abstractions. But this comes with a double-edged sword; it is easier to introduce performance regressions in our codebase when we do not master all the layers. In this presentation we will study the proper way to profile software, to measure CPU and memory usage of a given process. We will examine techniques used by commercial industry profilers and then see how to apply them to the Ruby world.  This will be a very technical talk with several demos."
         },
       juanitofatas:
         {
@@ -135,7 +136,7 @@ class Speaker
           github: "",
           bio: "",
           topic: "Data Migration With Confidence",
-          description: ""
+          description: "Finally convinced your new client to switch from X to Rails? Did your company acquire a non-rails site? Then you probably need to migrate their data to your existing system. In this talk, I will share some false starts, lessons, tips, optimisations and decisions from a recent data migration I performed. How to migrate large amount of photos and records? What tools will you need and how to test the data migration. What do you need to do before & after the data migration. What I tried and how I migrated large amounts of data while kept the site up and running."
         },
       florian:
         {
@@ -146,8 +147,8 @@ class Speaker
           twitter: "fw1729",
           github: "",
           bio: "",
-          topic: "Shitlist Driven Development",
-          description: ""
+          topic: "Shitlist-driven development and other tricks for working on large codebases",
+          description: "Working on large codebases is hard. Doing so with 700 people is even harder. Deploying it 50 times a day is almost impossible. We will look at productivity tricks and automations that we use at Shopify to get stuff done. We will learn how we fix the engine while the plane is running, how to quickly change code that lots of people depend on, how to automatically track down productivity killers like unreliable tests, how to maintain a level of agility that keeps developers happy and allows them to ship fast, and most importantly what the heck a \"shitlist\" is."
         },
       matadon:
         {
@@ -159,7 +160,7 @@ class Speaker
           github: "",
           bio: "",
           topic: "To Code is Human",
-          description: ""
+          description: "Programming is a deeply mental art. And as programmers, we invest large amounts of time in mastering new languages and new tools. But all too often, we neglect understanding of the most important tool in the developer's toolbox: the programmer's brain itself. In this talk, we will combine the art of programming with the science of cognitive psychology, and emerge with a deeper understanding of how to leverage the limits of the human mind to sustainably craft software that is less buggy, easier to understand, and more adaptive in the face of change."
         },
       lauranobilis:
         {
@@ -171,7 +172,7 @@ class Speaker
           github: "",
           bio: "",
           topic: "Writing Better Errors",
-          description: ""
+          description: "At their core, all errors trigger the same question, no matter who encounters them: What went wrong, and how do I make it work? At the same time, every error has specific target audiences that are interested in answering exactly that question - but possibly in very different ways. In this talk, we will explore how to design errors so they give each stakeholder the information they need to fix the issue at hand, and how we can use them to make our software even better. Errors might never be something you look forward to seeing - but when they crash your party, they'll at least know how to chat with the guests."
         },
       weiqingtoh:
         {
@@ -183,7 +184,7 @@ class Speaker
           github: "",
           bio: "",
           topic: "Meta-programming for Dummies",
-          description: ""
+          description: "The construct of the Ruby language allows for meta-programming, or 'code which modifies code at runtime'. However, meta-programming is a double-edged sword; as much as it is useful, it could very easily be misused by teams as well. In this talk, I will cover the benefits of meta-programming and some (basic) fundamentals (in the context of Ruby on Rails) and discuss pitfalls, anti-patterns, and considerations by teams before adopting meta-programming. Don't worry, this is easily digestible for rubyists of all levels!"
         },
       antondavydov:
         {
@@ -195,7 +196,7 @@ class Speaker
           github: "",
           bio: "",
           topic: "Hanami - New Ruby Web Framework",
-          description: ""
+          description: "Hanami is quite new and interesting framework which you are unlikely to write complex applications. But this does not mean that this framework is not worth your attention. Besides old approaches, you can also find new interesting solutions. In my presentation, I'm going to talk about Hanami framework and why you should look on this. We give consideration about advantages and disadvantages. And also I talk about future with Hanami."
         },
       marion:
         {
@@ -207,7 +208,7 @@ class Speaker
           github: "",
           bio: "",
           topic: "Plan of action: we need more women in programming!",
-          description: ""
+          description: "It is no news that there are not enough women in programming. As a (female) career changer, I know how a lot of people (and especially women) think about programming. I am now a Ruby programmer and programming is completely different than i imagined it would be. And I love it! Therefore, I am putting a lot of my time and energy into educating women about programming. I want to talk about why we don't have enough women in programming, why we need more, and what we all can do to achieve that goal."
         },
       ankitagupta:
         {
@@ -219,7 +220,7 @@ class Speaker
           github: "",
           bio: "",
           topic: "Spinning up micro-services using Ruby/Kafka",
-          description: ""
+          description: "As organisations get bigger, handling large application(s) gets harder - long release and test cycles, higher chances of a small change affecting other parts of the system. Micro-services solve some of these problems, albeit with their own set of challenges. Apache Kafka allows setting up event-driven architectures, wherein the concern of each service can be cleanly separated, and communication among services can happen asynchronously. The transition form a large rails application to smaller applications can be made more seamless with a few easy steps. I will be elaborating steps developers can take to make this process easier."
         },
       jinnywong:
         {
@@ -231,7 +232,7 @@ class Speaker
           github: "",
           bio: "",
           topic: "One Blind Weekend",
-          description: ""
+          description: "This talk is about the time when I was temporarily blind for a weekend, and how suddenly, web accessibility became both a boon and an annoyance to me. In this lightning talk I share about what I went through while \"blind\", and tips to improve your website's accessibility in order to enable more people to easily access and use your website, regardless of ability."
         },
       takayuki:
         {
@@ -243,7 +244,7 @@ class Speaker
           github: "",
           bio: "",
           topic: "One Way to Encourage the Open Source Community",
-          description: ""
+          description: "From the conclusion, it is to put a star on projects at GitHub. I'm very happy someone putting a star on my project. So if you already put a star on any projects, it encourage the open source community. But have you put a star on projects developed as oss used in your project? All of them? This talk proposes a solution that activates open source community by putting a star on projects which you depend."
         }
     }
   end
