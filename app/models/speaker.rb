@@ -1,7 +1,7 @@
 class Speaker
   TWITTER_URL = "https://twitter.com/"
   GITHUB_URL = "https://github.com/"
-  KEYNOTE_SPEAKERS = [:matz, :tenderlove, :apotonick, :betsyhaibel, :amatsuda]
+  KEYNOTE_SPEAKERS = [:matz, :tenderlove, :apotonick, :betsyhaibel, :amatsuda, :emilystolfo]
 
   def self.all
     speakers.values.map { |speaker| OpenStruct.new(speaker) }
