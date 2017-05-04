@@ -128,6 +128,39 @@ section#fringe-events
 
 hr.section-divider
 
+section#sponsors
+  .container
+    h2.section-header
+      ' Sponsors
+      .line
+    .row
+      .col-sm-12.text-center
+        p RedDotRubyConf could not have become such a diverse and vibrant event, without our friendly community and our generous sponsors and supporters.
+        p If you'd like to support and engage our Ruby community, please take a look at our #{link_to 'Sponsor Kit', asset_path('rdrc2017_sponsorkit.pdf'), target: "_blank"} and #{mail_to 'organisers@reddotrubyconf.com', 'get in touch with us', subject: "Sponsorship Enquiry for RedDotRubyConf 2017", target: "_blank"} for more information. Thank you!
+
+    .row.text-center
+      .col-sm-12.text-center
+        h3.section-header
+          ' Gold
+          .line
+      .col-sm-12.col-sm-offset-3
+        .col-sm-6
+          .sponsor
+            = link_to 'https://hired.com.sg/', target: "_blank" do
+              = image_tag 'sponsors/hired.jpg'
+
+    .row.text-center
+      .col-sm-12.text-center
+        h3.section-header
+          ' Supporting Sponsors
+          .line
+      .col-sm-4.col-sm-offset-4
+        .sponsor-support
+          = link_to 'https://www.stickermule.com/', target: "_blank" do
+            = image_tag 'sponsors/stickermule.png'
+
+hr.section-divider
+
 section#speakers
   .container
     h2.section-header
@@ -188,39 +221,6 @@ section#speakers
                 ' Speaker's Bio
               p.speaker--bio
                 = speaker.bio.html_safe
-
-hr.section-divider
-
-section#sponsors
-  .container
-    h2.section-header
-      ' Sponsors
-      .line
-    .row
-      .col-sm-12.text-center
-        p RedDotRubyConf could not have become such a diverse and vibrant event, without our friendly community and our generous sponsors and supporters.
-        p If you'd like to support and engage our Ruby community, please take a look at our #{link_to 'Sponsor Kit', asset_path('rdrc2017_sponsorkit.pdf'), target: "_blank"} and #{mail_to 'organisers@reddotrubyconf.com', 'get in touch with us', subject: "Sponsorship Enquiry for RedDotRubyConf 2017", target: "_blank"} for more information. Thank you!
-
-    .row.text-center
-      .col-sm-12.text-center
-        h3.section-header
-          ' Gold
-          .line
-      .col-sm-12.col-sm-offset-3
-        .col-sm-6
-          .sponsor
-            = link_to 'https://hired.com.sg/', target: "_blank" do
-              = image_tag 'sponsors/hired.jpg'
-
-    .row.text-center
-      .col-sm-12.text-center
-        h3.section-header
-          ' Supporting Sponsors
-          .line
-      .col-sm-4.col-sm-offset-4
-        .sponsor-support
-          = link_to 'https://www.stickermule.com/', target: "_blank" do
-            = image_tag 'sponsors/stickermule.png'
 
 hr.section-divider
 
