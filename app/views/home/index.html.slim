@@ -41,14 +41,7 @@ section#schedule
         = render "talk"   , time: "14:30", speaker: Speaker.find(:weiqingtoh)
         = render "talk"   , time: "15:00", speaker: Speaker.find(:antondavydov)
         = render "program", time: "15:30", description: "Break", icon: "coffee"
-        tr.program
-          td.program--time.time 16:00
-          td
-          td
-            .program--details
-              p
-                ' (awaiting confirmation)
-
+        = render "talk"   , time: "16:00", speaker: Speaker.find(:vaidehijoshi)
         = render "talk"   , time: "16:30", speaker: Speaker.find(:tenderlove)
         = render "program", time: "17:15", description: "Closing Address", icon: "bell"
         tr.program
