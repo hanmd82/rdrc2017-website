@@ -198,6 +198,18 @@ class Speaker
           topic: "Hanami - New Ruby Web Framework",
           description: "Hanami is quite new and interesting framework which you are unlikely to write complex applications. But this does not mean that this framework is not worth your attention. Besides old approaches, you can also find new interesting solutions. In my presentation, I'm going to talk about Hanami framework and why you should look on this. We give consideration about advantages and disadvantages. And also I talk about future with Hanami."
         },
+      vaidehijoshi:
+        {
+          id: :vaidehijoshi,
+          name: "Vaidehi Joshi",
+          avatar: "speakers/vaidehijoshi.png",
+          tagline: "",
+          twitter: "vaidehijoshi",
+          github: "",
+          bio: "",
+          topic: "Goldilocks and the Three Code Reviews",
+          description: "Once upon a time, Goldilocks had a couple extra minutes to spare before morning standup. She logged into Github and saw that there were three pull requests waiting for her to review. We’ve probably all heard that peer code reviews can do wonders to a codebase. But not all type of code reviews are effective. Some of them seem to go on and on forever, while others pick at syntax and formatting but miss bugs. This talk explores what makes a strong code review and what makes a painful one. Join Goldilocks as she seeks to find a code review process that’s neither too long nor too short, but just right!"
+        },
       marion:
         {
           id: :marion,
