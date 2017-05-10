@@ -7,82 +7,49 @@ section#content
     .row
       .col-sm-8.col-sm-offset-2
         p.text-center
-          ' This year, we are happy to have #{link_to 'Naumi Liora', 'http://naumihotels.com/naumiliora/'} and #{link_to 'Adler Hostel', 'http://www.adlerhostel.com/'} as our official conference accommodation partners.
-
+          ' This year, we are happy to announce #{link_to 'Amara Hotel', 'http://singapore.amarahotels.com/category/rooms/accommodation/', target: "_blank"} as our official conference hotel.
         p.text-center
-          ' Both are located in the Chinatown area, and are only 5 train stations away from the conference venue.
+          ' Situated next to the Central Business District, Amara Hotel is a 5-minute walk from Tanjong Pagar (MRT) train station, which is just six stations away from the conference venue.
+        p.text-center
+          ' Nearby, you can find many locations with good food, heritage buildings, and easy access to various Singapore landmarks.
+        p.text-center
+          ' Also, our after-party is at Element on Tras Street, located at the ground floor of Amara Hotel.
         br
 
         hr
 
         p
-          h3 Naumi Liora (#{link_to 'Website', 'http://naumihotels.com/naumiliora/'})
+          h3 Discounted Pricing for RedDotRubyConf Attendees
 
-          p The room rates below for Naumi Liora are applicable till <strong>Friday, 10th June</strong>. Naumi Liora reserves the right to confirm rooms based on their Best Available room rates for bookings after 10 June.
+          p We have arranged with Amara Hotel to offer a discounted business rate at SGD $200 nett per room per night.
 
-          p To book Naumi Liora, please email <strong>Poom Monterde</strong> at #{link_to 'dos@naumihospitality.com', 'dos@naumihospitality.com'} directly and quote "RedDotRubyConf".
-
-        table.table.table-striped.table-bordered
-          thead
-            tr
-              th Room Category
-              th Room Rate
-              th Remark
-          tbody
-            tr
-              td Quaint Room (Windowless)
-              td S$ 130++ (Room only)
-              td
-            tr
-              td Heritage Single (French Window)
-              td S$ 135++ (Room only)
-              td For Single Occupancy Only
-            tr
-              td Heritage Double (French Window)
-              td S$ 160++ (Room only)
-              td
-            tr
-              td Porch (French Window and Balcony)
-              td S$ 190++ (Room only)
-              td
+          p To make a booking, please download the #{link_to 'Booking Form', asset_path('amara_hotel_reservation_form.pdf'), target: "_blank"} and follow the instructions within to contact the hotel directly. Note that these room rates are only applicable till <strong>Thu, 25th May 2017</strong> and are subject to room availability.
         br
 
         hr
 
         p
-          h3 Adler Hostel (#{link_to 'Website', 'http://www.adlerhostel.com/'})
-
-          p To enjoy a 20% discount off the rates, participants can key in the promo code 'Adler2016' when they book via the website: #{link_to 'http://www.adlerhostel.com/book-now/', 'http://www.adlerhostel.com/book-now/'}.
-
-          p The price of a Single Cabin in Mixed Dorm would be from SGD 44/night onwards, after the 20% discount.
-        br
-
-        hr
-
-        p
-          h3 Transportion to Conference Venue
+          h3 Transportation to Conference Venue
         br
 
         p
-          h4 Arranged Transport from Naumi Liora
+          h4 Arranged Transportation from Amara Hotel
 
-        p We'll be putting up invited speakers at Naumi Liora and we'll arrange for transport from the hotel to the conference venue on both mornings, 23 June and 24 June.
+        p We'll be putting up our invited speakers at Amara Hotel and we'll arrange for transportation from the hotel to the conference venue (Matrix building @Biopolis) on both mornings, 22 June and 23 June.
 
         p
-          ' Conference attendees who are staying at Naumi Liora or close to the hotel are welcomed to hop on the arranged transport.
-          strong
-            em Even better would be to email us in advance at #{link_to 'organisers@reddotrubyconf.com', 'mailto:organisers@reddotrubyconf.com'}, so that we can reserve a seat for you!
+          ' Conference attendees who are staying at or close to Amara Hotel are welcome to hop on the arranged transport. Please email us in advance at #{mail_to 'organisers@reddotrubyconf.com', 'organisers@reddotrubyconf.com', target: "_blank", subject: "Transportation for RedDotRubyConf 2017"}, so that we can reserve a seat for you!
         br
 
         p
-          h4 By Train
+          h4 By Public Train
 
-        p Prefer to travel on your own? It's really easy to get from the Chinatown area to the conference venue too via MRT.
+        p Prefer to travel on your own? It's very easy to get from Tanjong Pagar to the conference venue via MRT train.
 
         p
-          ' From either Naumi Liora or Adler Hostel, walk to <strong>#{link_to 'Outram Park MRT (EW16)', 'https://goo.gl/hxjqXM'}</strong>
-          ' and 5 stops later at <strong>#{link_to 'Bouna Vista MRT (EW21)', 'https://goo.gl/5W5Fsr'}</strong>.
-          ' After which, it's just a short walk to the conference venue. Detailed instructions #{link_to 'available here', 'https://goo.gl/XalqDU'}.
+          ' From Amara Hotel, take a 5-minute walk to <strong>#{link_to 'Tanjong Pagar (EW15)', 'https://goo.gl/maps/9z6BtoW7F5T2', target: "_blank"}</strong> station
+          ' and alight 6 stops later at <strong>#{link_to 'Bouna Vista (EW21)', 'https://goo.gl/5W5Fsr', target: "_blank"}</strong>.
+          ' From there on, it is a short walk to the conference venue, via #{link_to 'this route', 'https://goo.gl/maps/3eqHgfK2PZr', target: "_blank"}.
         br
 
         p
@@ -97,7 +64,7 @@ section#content
           h3 Questions?
 
         p
-          ' If you encounter any problems in booking the accommodations above or figuring out your route to the conference venue, please to drop us an email at #{link_to 'organisers@reddotrubyconf.com', 'mailto:organisers@reddotrubyconf.com'},
+          ' If you encounter any problems in booking the accommodation above or figuring out your route to the conference venue, please drop us an email at #{mail_to 'organisers@reddotrubyconf.com', 'organisers@reddotrubyconf.com', target: "_blank", subject: "Accommodation and Transportation for RedDotRubyConf 2017"},
           ' and we'll do our best to sort it out for you! Thank you!
         br
         br
