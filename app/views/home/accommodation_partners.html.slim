@@ -7,27 +7,57 @@ section#content
     .row
       .col-sm-8.col-sm-offset-2
         p.text-center
-          ' This year, we are happy to announce #{link_to 'Amara Hotel', 'http://singapore.amarahotels.com/category/rooms/accommodation/', target: "_blank"} as our official conference hotel.
+          ' This year, we are happy to announce #{link_to 'Amara Hotel', 'http://singapore.amarahotels.com/category/rooms/accommodation/', target: "_blank"} as our conference hotel.
         p.text-center
           ' Situated next to the Central Business District, Amara Hotel is a 5-minute walk from Tanjong Pagar (MRT) train station, which is just six stations away from the conference venue.
         p.text-center
-          ' Nearby, you can find many locations with good food, heritage buildings, and easy access to various Singapore landmarks.
-        p.text-center
-          ' Also, our after-party is at Element on Tras Street, located at the ground floor of Amara Hotel.
-        br
-
-        hr
+          ' We have secured discounted rates with various accommodation partners, to cater to different budgets.
 
         p
-          h3 Discounted Pricing for RedDotRubyConf Attendees
+          h3 Amara Hotel (#{link_to 'Website', 'http://singapore.amarahotels.com/category/rooms/accommodation/', target: "_blank"})
 
-          p We have arranged with Amara Hotel to offer a discounted business rate at SGD $200 nett per room per night.
+          p Our conference hotel, Amara Hotel, is offering a special business rate of S$ 200 nett, per room per night. This is where our invited speakers are staying at, and we are providing transportation to the conference venue (see below).
 
-          p To make a booking, please download the #{link_to 'Booking Form', asset_path('amara_hotel_reservation_form.pdf'), target: "_blank"} and follow the instructions within to contact the hotel directly. Note that these room rates are only applicable till <strong>Thu, 25th May 2017</strong> and are subject to room availability.
+          p To make a booking, please download this #{link_to 'Booking Form', asset_path('amara_hotel_reservation_form.pdf'), target: "_blank"} and follow the instructions within to contact the hotel directly. Note that these room rates are only applicable till <strong>Thu, 25th May 2017</strong> and are subject to room availability.
+
+        p
+          h3 Naumi Liora Hotel (#{link_to 'Website', 'http://naumihotels.com/naumiliora/rooms/', target: "_blank"})
+
+          p Located in the Chinatown area, Naumi Liora hotel is only five train stations away from the conference venue.
+
+        table.table.table-striped.table-bordered
+          thead
+            tr
+              th Room Category
+              th Room Rate (per night)
+              th Remark
+          tbody
+            tr
+              td Quaint Room (Windowless)
+              td S$ 100++
+              td
+            tr
+              td Heritage Single (French Window)
+              td S$ 110++
+              td For Single Occupancy Only
+            tr
+              td Heritage Double (French Window)
+              td S$ 150++
+              td
+
+        p Note that the above rates are for <strong>Room Only</strong>, and WiFi will be provided throughout the hotel.
+
+        p To book Naumi Liora, please email <strong>Poom Monterde</strong> at #{mail_to 'dos@naumihotels.com', 'dos@naumihotels.com', target: "_blank", subject: "Booking Enquiry for RedDotRuby Conference"} directly and quote "RedDotRuby Conference".
+
+        p
+          h3 Adler Hostel (#{link_to 'Website', 'http://www.adlerhostel.com/', target: "_blank"})
+
+          p Also located in the Chinatown area, Adler Luxury Hostel is offering an additional 10% discount off the rates listed on their #{link_to 'website', 'http://www.adlerhostel.com/', target: "_blank"}, by using the promo code 'reddot2017'.
+
+          p After discount, the price of a Single Cabin in Mixed Dorm would start from S$ 45/night onwards.
         br
 
         hr
-
         p
           h3 Transportation to Conference Venue
         br
@@ -35,35 +65,32 @@ section#content
         p
           h4 Arranged Transportation from Amara Hotel
 
-        p We'll be putting up our invited speakers at Amara Hotel and we'll arrange for transportation from the hotel to the conference venue (Matrix building @Biopolis) on both mornings, 22 June and 23 June.
+        p We'll be picking up our invited speakers from Amara Hotel and arranging transportation to bring them to the conference venue (Matrix building @Biopolis) on both mornings, 22 June and 23 June.
 
         p
           ' Conference attendees who are staying at or close to Amara Hotel are welcome to hop on the arranged transport. Please email us in advance at #{mail_to 'organisers@reddotrubyconf.com', 'organisers@reddotrubyconf.com', target: "_blank", subject: "Transportation for RedDotRubyConf 2017"}, so that we can reserve a seat for you!
         br
 
         p
-          h4 By Public Train
+          h4 By Public Train (MRT)
 
-        p Prefer to travel on your own? It's very easy to get from Tanjong Pagar to the conference venue via MRT train.
-
+        p Prefer to travel on your own? It's very easy to get to the conference venue via MRT. Alight at <strong>#{link_to 'Buona Vista (EW21/CC22)', 'https://goo.gl/maps/3eqHgfK2PZr', target: "_blank"}</strong> station, and take a short walk to the conference venue - Matrix @Biopolis.
         p
-          ' From Amara Hotel, take a 5-minute walk to <strong>#{link_to 'Tanjong Pagar (EW15)', 'https://goo.gl/maps/9z6BtoW7F5T2', target: "_blank"}</strong> station
-          ' and alight 6 stops later at <strong>#{link_to 'Bouna Vista (EW21)', 'https://goo.gl/5W5Fsr', target: "_blank"}</strong>.
-          ' From there on, it is a short walk to the conference venue, via #{link_to 'this route', 'https://goo.gl/maps/3eqHgfK2PZr', target: "_blank"}.
+          h5 Directions from accommodation partners
+          ul
+            li Amara Hotel: short walk to <strong>#{link_to 'Tanjong Pagar (EW15)', 'https://goo.gl/maps/9z6BtoW7F5T2', target: "_blank"}</strong> station.
+            li Naumi Liora Hotel: short walk to <strong>#{link_to 'Outram Park (EW16)', 'https://goo.gl/maps/wg4cqnnq5o42', target: "_blank"}</strong> station.
+            li Adler Hostel: short walk along Temple Street to <strong>#{link_to 'Chinatown (NE4)', 'https://goo.gl/maps/MGmApjBA7uM2', target: "_blank"}</strong> station on the North-East (purple) Line and transfer at <strong>Outram Park (EW16)</strong> station to the East-West (green) line.
+
         br
-
-        p
           h4 Taxis
 
-        p Prefer something more comfortable? Try #{link_to 'Uber' , 'https://www.uber.com/cities/singapore/'} or #{link_to 'Grab', 'http://www.grab.com/sg/'}. Both are working pretty well in Singapore.
-        br
+          p Prefer something more comfortable? Try #{link_to 'Uber' , 'https://www.uber.com/cities/singapore/', target: "_blank"} or #{link_to 'Grab', 'http://www.grab.com/sg/', target: "_blank"}. Both have good coverage in Singapore.
 
         hr
 
         p
           h3 Questions?
-
-        p
           ' If you encounter any problems in booking the accommodation above or figuring out your route to the conference venue, please drop us an email at #{mail_to 'organisers@reddotrubyconf.com', 'organisers@reddotrubyconf.com', target: "_blank", subject: "Accommodation and Transportation for RedDotRubyConf 2017"},
           ' and we'll do our best to sort it out for you! Thank you!
         br
