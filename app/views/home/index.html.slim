@@ -51,7 +51,14 @@ section#schedule
             .program--description
               = icon("beer", class: "fa")
               ' After Party
+            p
             .program--details
+              p
+                strong Element (Bar) at Amara Singapore
+                br
+                ' 165 Tanjong Pagar Road
+                br
+                ' Singapore 088539 (#{link_to 'Map', 'https://www.google.co.th/maps/place/Element+Restaurant+Amara+Singapore/@1.2749664,103.8413809,17z/data=!3m1!4b1!4m5!3m4!1s0x31da196b5fbce62b:0x80932e718903b30!8m2!3d1.274961!4d103.843575', target: "_blank"})
               p
                 ' There will be finger food and free-flow beer!
 
@@ -171,17 +178,12 @@ section#accommodation
 
     .row
       .col-sm-8.col-sm-offset-2.text-center
-        p
-          ' This year, we are happy to announce #{link_to 'Amara Hotel', 'http://singapore.amarahotels.com/category/rooms/accommodation/', target: "_blank"} as our conference hotel.
-        p
-          ' Situated next to the Central Business District, Amara Hotel is a 5-minute walk from Tanjong Pagar (MRT) train station, which is just six stations away from the conference venue.
-        p
-          ' Also, our after-party is at Element on Tras Street, located at the ground floor of Amara Hotel.
+        p This year, we are happy to announce #{link_to 'Amara Hotel', 'http://singapore.amarahotels.com/category/rooms/accommodation/', target: "_blank"} as our conference hotel.
+        p Situated next to the Central Business District, Amara Hotel is a 5-minute walk from Tanjong Pagar (MRT) train station, which is just six stations away from the conference venue.
         br
 
-        p data-no-turbolink=true Please take a look at our #{link_to "Accommodation Partners", "/accommodation-partners#content"} page for more details.
-        p Please get in touch with us at #{mail_to 'organisers@reddotrubyconf.com', 'organisers@reddotrubyconf.com', target: "_blank", subject: "Accommodation for RedDotRubyConf 2017"} for more information. Thank you!
-
+        p We have secured discounted rates with various accommodation partners, to cater to different budgets.
+        p data-no-turbolink=true Please take a look at our #{link_to "Accommodation Partners", "/accommodation-partners#content", target: "_blank"} page for more details.
 
 hr.section-divider
 
