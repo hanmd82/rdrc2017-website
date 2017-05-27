@@ -143,30 +143,71 @@ section#sponsors
         h3.section-header
           ' Gold
           .line
-      .col-sm-12
-        = link_to 'https://hired.com.sg/', target: "_blank" do
-          = image_tag 'sponsors/hired.jpg', class: 'img-responsive center-block'
+      .col-sm-6.col-sm-offset-4
+        .col-sm-8
+          .sponsor
+            = link_to 'https://hired.com.sg/', target: "_blank" do
+              = image_tag 'sponsors/hired_red.png'
+        .col-sm-8
+          .sponsor
+            = link_to 'https://honestbee.sg/', target: "_blank" do
+              = image_tag 'sponsors/honestbee.png'
+        .col-sm-8
+          .sponsor
+            = link_to 'https://www.nexmo.com/', target: "_blank" do
+              = image_tag 'sponsors/nexmo.png'
+
+    .row.text-center
+      .col-sm-12.text-center
+        h3.section-header
+          ' Silver
+          .line
+      .col-sm-6.col-sm-offset-3
+        .col-sm-6
+          .sponsor
+            = link_to 'https://stripe.com/', target: "_blank" do
+              = image_tag 'sponsors/stripe_blue.png'
+        .col-sm-6
+          .sponsor
+            = link_to 'https://github.com/', target: "_blank" do
+              = image_tag 'sponsors/github.png'
+
+    .row.text-center
+      .col-sm-12.text-center
+        h3.section-header
+          ' After-Party Sponsor
+          .line
+      .col-sm-6.col-sm-offset-4
+        .col-sm-8
+          .sponsor
+            = link_to 'https://www.spgroup.com.sg/', target: "_blank" do
+              = image_tag 'sponsors/singaporepower.png'
 
     .row.text-center
       .col-sm-12.text-center
         h3.section-header
           ' Official Co-working Partner
           .line
-      .col-sm-4.col-sm-offset-4
-        br
-        = link_to 'https://www.spacemob.co/', target: "_blank" do
-          = image_tag 'sponsors/spacemob.png'
+      .col-sm-6.col-sm-offset-4
+        .col-sm-8
+          .sponsor
+            = link_to 'https://www.spacemob.co/', target: "_blank" do
+              = image_tag 'sponsors/spacemob.png'
 
     .row.text-center
       .col-sm-12.text-center
         h3.section-header
-          br
-          ' Supporting Sponsors
+          ' Supported By
           .line
-      .col-sm-4.col-sm-offset-4
-        .sponsor-support
-          = link_to 'https://www.stickermule.com/', target: "_blank" do
-            = image_tag 'sponsors/stickermule.png'
+      .col-sm-6.col-sm-offset-3
+        .col-sm-6
+          .sponsor-support
+            = link_to 'https://www.stickermule.com/', target: "_blank" do
+              = image_tag 'sponsors/stickermule.png'
+        .col-sm-6
+          .sponsor-support
+            = link_to 'https://ti.to/', target: "_blank" do
+              = image_tag 'sponsors/tito.png'
 
 hr.section-divider
 
