@@ -106,7 +106,7 @@ section#fringe-events
             .text-muted
               ' June 20th, Tuesday, 7:00pm - 9:00pm
               br
-              ' (Venue to be confirmed)
+              ' Spacemob, 8 Claymore Hill, #03-01, Singapore 229572
             br
             p
               ' Registration link will be available soon
@@ -139,34 +139,62 @@ section#sponsors
         p If you'd like to support and engage our Ruby community, please take a look at our #{link_to 'Sponsor Kit', asset_path('rdrc2017_sponsorkit.pdf'), target: "_blank"} and #{mail_to 'organisers@reddotrubyconf.com', 'get in touch with us', subject: "Sponsorship Enquiry for RedDotRubyConf 2017", target: "_blank"} for more information. Thank you!
 
     .row.text-center
-      .col-sm-12.text-center
+      .col-sm-12
         h3.section-header
           ' Gold
           .line
-      .col-sm-12
-        = link_to 'https://hired.com.sg/', target: "_blank" do
-          = image_tag 'sponsors/hired.jpg', class: 'img-responsive center-block'
+      .col-sm-10.col-sm-offset-1
+        .col-sm-5
+          .sponsor
+            = link_to 'https://hired.com.sg/', target: "_blank" do
+              = image_tag 'sponsors/hired_red.png'
+        .col-sm-5.col-sm-offset-2
+          .sponsor
+            = link_to 'https://honestbee.sg/', target: "_blank" do
+              = image_tag 'sponsors/honestbee.png'
+      .col-sm-10.col-sm-offset-1
+        .col-sm-5
+          .sponsor
+            = link_to 'https://www.nexmo.com/', target: "_blank" do
+              = image_tag 'sponsors/nexmo.png'
+        .col-sm-5.col-sm-offset-2
+          .sponsor
+            = link_to 'https://www.spgroup.com.sg/', target: "_blank" do
+              = image_tag 'sponsors/singaporepower.png'
 
     .row.text-center
       .col-sm-12.text-center
         h3.section-header
-          ' Official Co-working Partner
+          ' Silver
           .line
-      .col-sm-4.col-sm-offset-4
-        br
-        = link_to 'https://www.spacemob.co/', target: "_blank" do
-          = image_tag 'sponsors/spacemob.png'
+      .col-sm-6.col-sm-offset-3
+        .col-sm-5
+          .sponsor
+            = link_to 'https://stripe.com/', target: "_blank" do
+              = image_tag 'sponsors/stripe_blue.png'
+        .col-sm-5.col-sm-offset-2
+          .sponsor
+            = link_to 'https://github.com/', target: "_blank" do
+              = image_tag 'sponsors/github.png'
 
     .row.text-center
       .col-sm-12.text-center
         h3.section-header
-          br
-          ' Supporting Sponsors
+          ' Supported By
           .line
-      .col-sm-4.col-sm-offset-4
-        .sponsor-support
-          = link_to 'https://www.stickermule.com/', target: "_blank" do
-            = image_tag 'sponsors/stickermule.png'
+      .col-sm-8.col-sm-offset-2
+        .col-sm-4
+          .sponsor-support
+            = link_to 'https://www.stickermule.com/', target: "_blank" do
+              = image_tag 'sponsors/stickermule.png'
+        .col-sm-4
+          .sponsor
+            = link_to 'https://www.spacemob.co/', target: "_blank" do
+              = image_tag 'sponsors/spacemob.png'
+        .col-sm-4
+          .sponsor-support
+            = link_to 'https://ti.to/', target: "_blank" do
+              = image_tag 'sponsors/tito.png'
 
 hr.section-divider
 
