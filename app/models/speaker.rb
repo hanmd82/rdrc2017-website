@@ -114,18 +114,6 @@ class Speaker
           topic: "All I'd Wanted to Know about Ruby's Object Model Starting Out...and Mooar!!!",
           description: "One of the most fun yet confusing things about Ruby is its object model. It's something that can seem highly cryptic to beginners, and perhaps not even that well understood by experienced Rubyists. Not too far into my Ruby journey, I began to get a taste of metaprogramming, but even as I learnt and grew more familiar with common idioms, I always had a nagging feeling that my underlying mental model didn't quite cut it, so I decided to iron it out. The more I read, the more intrigued I became, until I ended up diving into the CRuby source itself! Here's the story of what I learnt about Ruby's object model, in a way that's both digestible for beginner/intermediates and also insightful for the more experienced. It will also be the story of my journey from feeling like a newbie lacking confidence in my ability to understand something as complex as CRuby, to taking the plunge and learning how to fearlessly read the source!"
         },
-      laurent:
-        {
-          id: :laurent,
-          name: "Laurent Sansonetti",
-          avatar: "speakers/laurent.png",
-          tagline: "Founder & CEO, HipByte",
-          twitter: "lrz",
-          github: "lrz",
-          bio: "",
-          topic: "Profiling Ruby Applications, the Right Way",
-          description: "We all love Ruby because of its conciseness, its elegant syntax allows us to write beautiful code abstractions. But this comes with a double-edged sword; it is easier to introduce performance regressions in our codebase when we do not master all the layers. In this presentation we will study the proper way to profile software, to measure CPU and memory usage of a given process. We will examine techniques used by commercial industry profilers and then see how to apply them to the Ruby world.  This will be a very technical talk with several demos."
-        },
       juanitofatas:
         {
           id: :juanitofatas,
