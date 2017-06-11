@@ -284,6 +284,11 @@ section#speakers
                   = speaker.topic
                 p.speaker--description
                   = speaker.description
+            .col-sm-12.col-md-4
+              .speaker--topic
+                ' Speaker's Bio
+              p.speaker--bio
+                = speaker.bio.html_safe
 
 hr.section-divider
 
