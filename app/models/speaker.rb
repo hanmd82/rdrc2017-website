@@ -122,7 +122,7 @@ class Speaker
           tagline: "Software Engineer, Cookpad",
           twitter: "JuanitoFatas",
           github: "JuanitoFatas",
-          bio: "",
+          bio: "Juanito is a developer at Cookpad, based in Tokyo, Japan. He spends most of his time programming in Ruby, choosing which emoji to use, and seeking for good ramen.",
           topic: "Data Migration With Confidence",
           description: "Finally convinced your new client to switch from X to Rails? Did your company acquire a non-rails site? Then you probably need to migrate their data to your existing system. In this talk, I will share some false starts, lessons, tips, optimisations and decisions from a recent data migration I performed. How to migrate large amount of photos and records? What tools will you need and how to test the data migration. What do you need to do before & after the data migration. What I tried and how I migrated large amounts of data while kept the site up and running."
         },
@@ -134,7 +134,7 @@ class Speaker
           tagline: "Production Engineering Lead, Shopify",
           twitter: "fw1729",
           github: "fw42",
-          bio: "",
+          bio: "Florian is originally from Germany, where he studied mathematics and computer science. Since moving to Canada, he is now working as   Production Engineer at Shopify in Ottawa, spending most of his time on refactoring large Ruby on Rails codebases and thinking about scalability and performance problems.",
           topic: "Shitlist-driven development and other tricks for working on large codebases",
           description: "Working on large codebases is hard. Doing so with 700 people is even harder. Deploying it 50 times a day is almost impossible. We will look at productivity tricks and automations that we use at Shopify to get stuff done. We will learn how we fix the engine while the plane is running, how to quickly change code that lots of people depend on, how to automatically track down productivity killers like unreliable tests, how to maintain a level of agility that keeps developers happy and allows them to ship fast, and most importantly what the heck a \"shitlist\" is."
         },
@@ -158,7 +158,7 @@ class Speaker
           tagline: "Software Engineer, TenTen Ltd",
           twitter: "laura_nobilis",
           github: "Morred",
-          bio: "",
+          bio: "Laura is a web developer living in Tokyo and working for Berlin. One of her favorite pastimes is learning something new, be it a technology, a language or anything else. When she’s not busy coding, you can usually find her reading things, making things, climbing on or jumping over things, or trying out another martial art.",
           topic: "Writing Better Errors",
           description: "At their core, all errors trigger the same question, no matter who encounters them: What went wrong, and how do I make it work? At the same time, every error has specific target audiences that are interested in answering exactly that question - but possibly in very different ways. In this talk, we will explore how to design errors so they give each stakeholder the information they need to fix the issue at hand, and how we can use them to make our software even better. Errors might never be something you look forward to seeing - but when they crash your party, they'll at least know how to chat with the guests."
         },
@@ -218,7 +218,7 @@ class Speaker
           tagline: "Software Engineer, honestbee",
           twitter: "",
           github: "",
-          bio: "",
+          bio: "Ankita is working as a full-stack software engineer at honestbee. In her free time, she works on her non-profit project Jugnuu, a low-cost, mobile-based English language solution for children.",
           topic: "Spinning up micro-services using Ruby/Kafka",
           description: "As organisations get bigger, handling large application(s) gets harder - long release and test cycles, higher chances of a small change affecting other parts of the system. Micro-services solve some of these problems, albeit with their own set of challenges. Apache Kafka allows setting up event-driven architectures, wherein the concern of each service can be cleanly separated, and communication among services can happen asynchronously. The transition form a large rails application to smaller applications can be made more seamless with a few easy steps. I will be elaborating steps developers can take to make this process easier."
         },
@@ -230,7 +230,7 @@ class Speaker
           tagline: "Engineering Manager, Carousell",
           twitter: "shujinh",
           github: "shujin",
-          bio: "",
+          bio: "Jinny is an Engineering Manager at Carousell, and provides strategic and technical guidance to the engineering team. She graduated with a bachelors degree in computer science from Monash university. When she is not serious at work, Jinny owns two cats with her husband. She also enjoys music, photography and running.",
           topic: "One Blind Weekend",
           description: "This talk is about the time when I was temporarily blind for a weekend, and how suddenly, web accessibility became both a boon and an annoyance to me. In this lightning talk I share about what I went through while \"blind\", and tips to improve your website's accessibility in order to enable more people to easily access and use your website, regardless of ability."
         },
