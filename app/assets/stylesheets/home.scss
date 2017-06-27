@@ -40,7 +40,7 @@
 .splash {
   padding: 150px 0;
 
-  background-image: asset-url('splash2016.jpg');
+  background-image: asset-url('splash_2017.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -67,6 +67,14 @@
     text-align: center;
   }
 
+  .splash--ending {
+    font-size: 100%;
+    font-weight: 900;
+
+    text-transform: uppercase;
+    text-shadow: 2px 2px #aaa;
+  }
+
   .splash--cta {
     text-align: center;
 
@@ -86,6 +94,10 @@
 
     .splash--blurb {
       font-size: 180%;
+    }
+
+    .splash--ending {
+      font-size: 350%;
     }
   }
 }

@@ -31,8 +31,6 @@ html
             li= link_to "Accommodation" , "/accommodation-partners#content", target: "_blank"
             li= link_to "Sponsors" , "/#sponsors"
             li= link_to "Code of Conduct" , "/code-of-conduct#content", target: "_blank"
-          ul class="nav navbar-nav navbar-right"
-            li= link_to "Buy Tickets" , "https://ti.to/reddotruby/rdrc2017", target: "_blank"
 
     section.splash
       .splash--background
@@ -40,7 +38,7 @@ html
         .row
           .col-sm-12.text-center
             .splash--title
-              = image_tag "rdrc2017_logo_576.png"
+              = image_tag "logo_2017.png"
               div RedDotRubyConf
         .row
           .col-sm-12.splash--blurb
@@ -50,8 +48,18 @@ html
               ' June 22 and 23, 2017
               br
               ' Singapore
+        .row
+          .col-sm-12.text-center
+            .splash--ending
+              p
+                ' Thank you for coming!
           .col-sm-12.splash--cta
-            = link_to "Buy Tickets", "https://ti.to/reddotruby/rdrc2017", class: "cta", target: "_blank"
+            = link_to "Photos", "https://www.flickr.com/photos/reddotrubyconf", class: "cta", target: "_blank"
+            ' &nbsp;
+            ' &nbsp;
+            ' &nbsp;
+            = link_to "Videos", "https://engineers.sg/conference/reddotrubyconf2017", class: "cta", target: "_blank"
+
 
     = yield
 
