@@ -22,7 +22,7 @@ html
             span class="icon-bar"
             span class="icon-bar"
             span class="icon-bar"
-          a class="navbar-brand" href="/" RedDotRubyConf 2017
+          a class="navbar-brand" href="/" RedDotRubyConf
         #navbar class="navbar-collapse collapse"
           ul class="nav navbar-nav"
             li= link_to "Schedule" , "/#schedule"
@@ -39,20 +39,13 @@ html
           .col-sm-12.text-center
             .splash--title
               = image_tag "logo_2017.png"
-              div RedDotRubyConf
-        .row
-          .col-sm-12.splash--blurb
-            p
-              ' Two Days • Single Track
-              br
-              ' June 22 and 23, 2017
-              br
-              ' Singapore
         .row
           .col-sm-12.text-center
             .splash--ending
               p
+                br
                 ' Thank you for coming!
+
           .col-sm-12.splash--cta
             = link_to "Photos", "https://www.flickr.com/photos/reddotrubyconf", class: "cta", target: "_blank"
             ' &nbsp;
@@ -60,6 +53,12 @@ html
             ' &nbsp;
             = link_to "Videos", "https://engineers.sg/conference/reddotrubyconf2017", class: "cta", target: "_blank"
 
+        .row
+          .col-sm-12.splash--blurb
+            p
+              br
+              br
+              ' RedDotRubyConf will be taking a break in 2018
 
     = yield
 
